@@ -95,8 +95,8 @@
             android:layout_height="wrap_content"
             android:background="@color/rbMujer"
             android:baselineAligned="false"
+            android:checked="true"
             android:text="@string/rb_mujer" />
-
     </RadioGroup>
 
     <TextView

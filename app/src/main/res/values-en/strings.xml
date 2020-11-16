@@ -17,13 +17,12 @@
     <string name="switch_hijos_On">YES</string>
     <string name="switch_hijos_Off">NO</string>
     <string name="btn_info">Information</string>
-    <string name="txt_info"></string>
     <string name="btn_limpiar">Delete Data</string>
     <string name="btn_idioma">Language</string>
     <string name="str_es">Spanish</string>
     <string name="str_en">English</string>
     <string name="str_pt">Portuguese</string>
-    <string name="toast_Nombre">You must fill in the Name field</string>
-    <string name="toast_Edad">You must fill in the Age field</string>
-    <string name="toast_Apellidos">You must fill in the Surname field</string>
+    <string name="toast_nombre">You must fill in the Name field</string>
+    <string name="toast_edad">You must fill in the Age field</string>
+    <string name="toast_apellidos">You must fill in the Surname field</string>
 </resources>

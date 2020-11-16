@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Detectar campos no rellenados y mostrar mensaje
             if (datoNombre.isEmpty())
             {
-                Toast toast = Toast.makeText(this, R.string.toast_Nombre, Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(this, R.string.toast_nombre, Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.TOP| Gravity.LEFT, 0, 400);
                 toast.getView().setBackgroundColor(Color.GREEN);
                 TextView text = (TextView) toast.getView().findViewById(android.R.id.message);
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             if (datoApellidos.isEmpty())
             {
-                Toast toast = Toast.makeText(this, R.string.toast_Apellidos, Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(this, R.string.toast_apellidos, Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.TOP| Gravity.RIGHT, 0, 400);
                 toast.getView().setBackgroundColor(Color.GREEN);
                 TextView text = (TextView) toast.getView().findViewById(android.R.id.message);
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             if (datoEdad.isEmpty())
             {
-                Toast toast = Toast.makeText(this, R.string.toast_Edad, Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(this, R.string.toast_edad, Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.TOP| Gravity.LEFT, 0, 670);
                 toast.getView().setBackgroundColor(Color.GREEN);
                 TextView text = (TextView) toast.getView().findViewById(android.R.id.message);
@@ -160,14 +160,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             else
             {
-                if (datoNombre.isEmpty()||datoApellidos.isEmpty()||datoEdad.isEmpty())
-                {
-                    Toast.makeText(this, datoApellidos + ", " + datoNombre + ", " + datoEdad + ", " + generoElegido + ", " + estadoCivil + " y " + numHijos + ".", Toast.LENGTH_LONG);
-                }
-                else
-                {
-                    Toast.makeText(this, datoApellidos + ", " + datoNombre + ", " + datoEdad + ", " + generoElegido + ", " + estadoCivil + " y " + numHijos + ".", Toast.LENGTH_LONG).show();
-                }
+                Toast.makeText(this, datoApellidos + ", " + datoNombre + ", " + datoEdad + ", " + generoElegido + ", " + estadoCivil + " y " + numHijos + ".", Toast.LENGTH_LONG).show();
             }
         }
 

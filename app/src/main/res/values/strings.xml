@@ -17,11 +17,10 @@
     <string name="switch_hijos_On">SI</string>
     <string name="switch_hijos_Off">NO</string>
     <string name="btn_info">Información</string>
-    <string name="txt_info" translatable="false"></string>
     <string name="btn_limpiar">Borrar datos</string>
-    <string name="toast_Nombre">Debe rellenar el campo Nombre</string>
-    <string name="toast_Apellidos">Debe rellenar el campo Apellidos</string>
-    <string name="toast_Edad">Debe rellenar el campo Edad</string>
+    <string name="toast_nombre">Debe rellenar el campo Nombre</string>
+    <string name="toast_apellidos">Debe rellenar el campo Apellidos</string>
+    <string name="toast_edad">Debe rellenar el campo Edad</string>
 
     // Elementos del Spinner id spn_EstadoCivil
     <string-array name="spn_opciones">

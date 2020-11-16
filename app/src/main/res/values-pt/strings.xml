@@ -17,13 +17,12 @@
     <string name="switch_hijos_On">SIM</string>
     <string name="switch_hijos_Off">NÃO</string>
     <string name="btn_info">Informação</string>
-    <string name="txt_info"></string>
     <string name="btn_limpiar">Apagar Dados</string>
     <string name="btn_idioma">Língua</string>
     <string name="str_es">Espanhol</string>
     <string name="str_pt">Português</string>
     <string name="str_en">Inglês</string>
-    <string name="toast_Nombre">Você deve preencher o campo Nome</string>
-    <string name="toast_Apellidos">Você deve preencher o campo Sobrenome</string>
-    <string name="toast_Edad">Você deve preencher o campo Idade</string>
+    <string name="toast_nombre">Você deve preencher o campo Nome</string>
+    <string name="toast_edad">Você deve preencher o campo Idade</string>
+    <string name="toast_apellidos">Você deve preencher o campo Sobrenome</string>
 </resources>
