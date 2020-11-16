@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="txt_nombre">Name</string>
+    <string name="txt_apellidos">Last Name</string>
+    <string name="txt_edad">Age</string>
+    <string name="txt_Genero">Gender</string>
+    <string name="rb_hombre">Man</string>
+    <string name="rb_mujer">Woman</string>
+    <string name="txt_estadoCivil">Civil Status</string>
+    <string name="spn_soltero">Single</string>
+    <string name="spn_casado">Married</string>
+    <string name="spn_separado">Separated</string>
+    <string name="spn_viudo">Widower</string>
+    <string name="spn_otro">Other</string>
+    <string name="txt_hijos">Children?</string>
+    <string name="switch_hijos_On">YES</string>
+    <string name="switch_hijos_Off">NO</string>
+    <string name="btn_info">Information</string>
+    <string name="txt_info"></string>
+    <string name="btn_limpiar">Delete Data</string>
+    <string name="btn_idioma">Language</string>
+    <string name="str_es">Spanish</string>
+    <string name="str_en">English</string>
+    <string name="str_pt">Portuguese</string>
+    <string name="toast_Nombre">You must fill in the Name field</string>
+    <string name="toast_Edad">You must fill in the Age field</string>
+    <string name="toast_Apellidos">You must fill in the Surname field</string>
+</resources>

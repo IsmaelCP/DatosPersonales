@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoApp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/txt_nombre"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_apellidos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_apellidos"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/txt_apellidos"
+        android:layout_width="220dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/txt_apellidos"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <EditText
+        android:id="@+id/txt_edad"
+        android:layout_width="61dp"
+        android:layout_height="41dp"
+        android:ems="12"
+        android:hint="@string/txt_edad"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_Genero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_Genero"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_Genero"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:background="@color/txtGenero"
+        android:text="@string/txt_Genero"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/rg_genero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rg_genero"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/rg_genero"
+        android:layout_width="171dp"
+        android:layout_height="42dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265">
+
+        <RadioButton
+            android:id="@+id/rb_Hombre"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:background="@color/rbHombre"
+            android:baselineAligned="false"
+            android:text="@string/rb_hombre" />
+
+        <RadioButton
+            android:id="@+id/rb_Mujer"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:background="@color/rbMujer"
+            android:baselineAligned="false"
+            android:text="@string/rb_mujer" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_estadoCivil"
+        android:layout_width="83dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginRight="188dp"
+        android:background="#FFEA9C84"
+        android:text="@string/txt_estadoCivil"
+        android:textAllCaps="false"
+        android:textColorHighlight="#FFFFFF"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/spn_estadoCivil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spn_estadoCivil"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spn_estadoCivil"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch_hijos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/switch_hijos"
+        app:layout_constraintVertical_bias="0.389" />
+
+    <Switch
+        android:id="@+id/switch_hijos"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@color/swtHijos"
+        android:selectAllOnFocus="false"
+        android:shadowColor="#FFFFFF"
+        android:showText="true"
+        android:text="@string/txt_hijos"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textOff="NO"
+        android:textOn="SI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <Button
+        android:id="@+id/btn_limpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/btnLimpiar"
+        android:text="@string/btn_limpiar"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_info"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:background="@color/btnInfo"
+        android:text="@string/btn_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <Button
+        android:id="@+id/btn_idioma"
+        android:layout_width="104dp"
+        android:layout_height="35dp"
+        android:background="@drawable/idioma"
+        android:text="@string/btn_idioma"
+        android:textColor="#F42A1B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="btn_idioma">Idioma</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellidos">Apellidos</string>
+    <string name="txt_edad">Edad</string>
+    <string name="txt_Genero">Género</string>
+    <string name="rb_hombre">Hombre</string>
+    <string name="rb_mujer">Mujer</string>
+    <string name="txt_estadoCivil">Estado Civil</string>
+    <string name="spn_soltero">Soltero</string>
+    <string name="spn_casado">Casado</string>
+    <string name="spn_separado">Separado</string>
+    <string name="spn_viudo">Viudo</string>
+    <string name="spn_otro">Otro</string>
+    <string name="txt_hijos">Hijos?</string>
+    <string name="switch_hijos_On">SI</string>
+    <string name="switch_hijos_Off">NO</string>
+    <string name="btn_info">Información</string>
+    <string name="txt_info" translatable="false"></string>
+    <string name="btn_limpiar">Borrar datos</string>
+    <string name="toast_Nombre">Debe rellenar el campo Nombre</string>
+    <string name="toast_Apellidos">Debe rellenar el campo Apellidos</string>
+    <string name="toast_Edad">Debe rellenar el campo Edad</string>
+
+    // Elementos del Spinner id spn_EstadoCivil
+    <string-array name="spn_opciones">
+        <item>@string/spn_soltero</item>
+        <item>@string/spn_casado</item>
+        <item>@string/spn_separado</item>
+        <item>@string/spn_viudo</item>
+        <item>@string/spn_otro</item>
+    </string-array>
+
+    // Elementos de los idiomas
+    <string name="str_es">Español</string>
+    <string name="str_en">Inglés</string>
+    <string name="str_pt">Portugués</string>
+    <string-array name="idioma">
+        <item>@string/str_es</item>
+        <item>@string/str_en</item>
+        <item>@string/str_pt</item>
+    </string-array>
+</resources>
